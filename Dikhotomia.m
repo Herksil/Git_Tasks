@@ -2,6 +2,13 @@ function Dikhotomia
 
 xp=D(-10,10,0.0001);
 
+x=-10:1:10;
+y=f(x);
+yp=f(xp);
+figure(1)
+plot(x,y,'g')
+plot(x,y,'g',xp,yp,'bo')
+
 function y=f(x)
 y=(x+1).^2;
 end
