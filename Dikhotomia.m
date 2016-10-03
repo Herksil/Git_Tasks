@@ -1,5 +1,7 @@
 function Dikhotomia
 
+xp=D(-10,10,0.0001);
+
 function y=f(x)
 y=(x+1).^2;
 end
